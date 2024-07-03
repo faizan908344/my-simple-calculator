@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="fav-icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalcEasy</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <section id="calculator-app">
+        <div class="calculator">
+            <div class="heading">
+                <h3>CalcEasy Calculator</h3>
+            </div>
+            <div class="inputScreen">
+                <input type="text" id="inputText" name="inputText">
+            </div>
+            <div class="solar-affect">
+                <div class="box"></div>
+            </div>
+            <div class="calculator-keys">
+                <button id="clearBtn" onclick="clearAllBtn()">CLEAR</button>
+                <button id="eraseBtn" onclick="deleteBtn()">DELETE</button>
+
+                <button onclick="numberInputKey('7')">7</button>
+                <button onclick="numberInputKey('8')">8</button>
+                <button onclick="numberInputKey('9')">9</button>
+                <button onclick="numberInputKey('+')">+</button>
+
+                <button onclick="numberInputKey('4')">4</button>
+                <button onclick="numberInputKey('5')">5</button>
+                <button onclick="numberInputKey('6')">6</button>
+                <button onclick="numberInputKey('-')">-</button>
+
+                <button onclick="numberInputKey('1')">1</button>
+                <button onclick="numberInputKey('2')">2</button>
+                <button onclick="numberInputKey('3')">3</button>
+                <button onclick="numberInputKey('*')">*</button>
+                
+                <button onclick="numberInputKey('.')">.</button>
+                <button onclick="numberInputKey('0')">0</button>
+                <button onclick="calculateResult()">=</button>
+                <button onclick="numberInputKey('/')">/</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="calculator-text">
+        <div class="heading">
+            <h2>WELCOME TO THE CALCULATOR WEBSITE</h2>
+        </div>
+        <div class="text">
+            <p>CalcEasy is your go-to simple and efficient calculator for all your basic arithmetic needs. Designed with ease of use in mind, CalcEasy helps you perform quick calculations on the go, whether you're at home, in the office, or traveling. Our intuitive interface ensures that you can add, subtract, multiply, and divide with just a few clicks. CalcEasy is perfect for students, professionals, and anyone who needs a reliable calculator without the complexity. Try CalcEasy today and experience hassle-free calculations like never before.</p>
+        </div>
+    </section>
+</body>
+</html>
